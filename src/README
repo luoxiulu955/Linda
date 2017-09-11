@@ -1,0 +1,22 @@
+Name: Liang Xia
+SCUID: W1308060
+The mapping of system hostnames and ip addresses of lab machines is stored in hosts.properties.
+If trying to test it on other machines, added system hostname and ip address in the propertie 
+file before running the program. It is used to verify the ip addresses when running add host subcommand.
+
+Linda subcommands include "add", "in", "rd", "out".
+Also, "quit" subcommand is added in order to quit the program safely instead of pressing ctrl+c.
+
+The console output follows the same format of examples in the Programming Assignment #2.
+Also, both server and client will show the output if any event occurs.
+
+To run the program:
+Under P2 folder:
+1. make clean
+	Run it in order to clean up previous test tuple files
+	it cleans *.class under the P2 folder
+2. gmake
+	it compiles all the java file
+3. java P2 $hostname
+	choose any customized hostname which you preferred.
+
